@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UserDetailComponent } from './detail.component';
+import { StandaloneCmpComponent } from './standalone-cmp.component';
 
-describe('DetailComponent', () => {
-  let component: UserDetailComponent;
-  let fixture: ComponentFixture<UserDetailComponent>;
+describe('StandaloneCmpComponent', () => {
+  let component: StandaloneCmpComponent;
+  let fixture: ComponentFixture<StandaloneCmpComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UserDetailComponent ]
+      declarations: [ StandaloneCmpComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(UserDetailComponent);
+    fixture = TestBed.createComponent(StandaloneCmpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

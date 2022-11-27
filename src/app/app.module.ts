@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {  CoreModule } from './core/core.module';
 import { UserModule } from './user/user.module';
 import { PostModule } from './post/post.module';
+import { StandaloneCmpComponent } from './standalone-cmp/standalone-cmp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
+    StandaloneCmpComponent,
     BrowserModule,
     CoreModule,
     AppRoutingModule,

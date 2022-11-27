@@ -1,3 +1,8 @@
 export interface IUser {
-    username:string;
+    id:number;
+    username: string;
+} 
+
+export type User ={
+    username: string;
 } 
